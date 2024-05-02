@@ -26,7 +26,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        gap:25px;
+        gap:20px;
         height:100%;
         background-color: #fcf5f3;
 
@@ -35,8 +35,8 @@ nav{
         }
 
         a{
-            padding: 12px 24px;
-            margin:20px;
+            padding: 10px 12px;
+            margin-inline-end: 6px;
         }
 
         @include md {
