@@ -1,6 +1,13 @@
+import "./Layout.scss"
+
 function App() {
   return (
-    <div>Hello World</div>
+    <div className="layout">
+      <h1>Estate UI</h1>
+    <a href='/'>Live</a>
+
+    </div>
+
   )
 }
 
