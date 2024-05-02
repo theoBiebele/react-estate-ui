@@ -46,9 +46,11 @@ nav{
 
         .menuIcon{
             display: none;
-
+            z-index: 087;
             @include sm{
                 display: inline;
+                margin-bottom: 59px;
+                margin-right: 0;
 
             }
 
@@ -67,9 +69,23 @@ nav{
             width: 50%;
             top:0;
             right:-50%;
+            transition: all 1s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
 
-            &.ctive{
+            &.active{
                 right:0;
+            }
+            
+            a{
+                @include sm{
+                    display: initial;
+                    
+
+                }
             }
         }
 
